@@ -1,0 +1,24 @@
+# program to find grade based on marks
+
+a = int(input("enter your marks"))
+
+if a >= 91 and a <= 100:
+    print("your grade is A1")
+
+elif a >= 81 and a < 91:
+    print("your grade is A2")
+
+elif a >= 71 and a < 81:
+    print("your grade is B1")
+
+elif a >= 61 and a < 71:
+    print("your grade is B2")
+
+elif a >= 51 and a < 61:
+    print("your grade is C1")
+
+elif a >= 35 and a < 51:
+    print("your grade is C2")
+
+else:
+    print("you are fail")            
